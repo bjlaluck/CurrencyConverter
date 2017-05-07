@@ -21,7 +21,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    
+    @IBAction func clearButton(_ sender: UIButton) {
+        inputTextField.text = ""
+    }
     
     
     @IBAction func conveertCurrency(_ sender: UIButton) {
